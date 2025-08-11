@@ -35,7 +35,7 @@
    Register: POST /api/register/
    Login: POST /api/login/
    List Books: GET /api/books/
-   dd Book: POST /api/books/add/ (Librarian only)
+   Add Book: POST /api/books/add/ (Librarian only)
    Delete Book: DELETE /api/books/{id}/ (Librarian only)
    Add to Cart: POST /api/cart/add/
    Checkout: POST /api/cart/checkout/
@@ -47,3 +47,4 @@
    Use registration and login to access your JWT token.
 
    Visit each endpoint using Postman or any HTTP client with your token.
+
